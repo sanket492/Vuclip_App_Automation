@@ -1,4 +1,7 @@
 # Vuclip_App_Automation
+
+Maven project 
+
 Scenario:
 Launch Vuclip App and serach for a video
 play it --->Pause it ---->seek --->play it again.
