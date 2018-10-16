@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Vuclip_app_automation" verbose="3">
+  <test verbose="2" name="Search_play_pause_seek_Functioality" parallel="classes">
+    <classes>
+      <class name="com.vuclip.tests.Video_play_Test"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
