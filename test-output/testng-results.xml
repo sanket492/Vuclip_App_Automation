@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127825" started-at="2018-10-16T20:21:51Z" finished-at="2018-10-16T20:23:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127825" started-at="2018-10-16T20:21:51Z" finished-at="2018-10-16T20:23:59Z">
+      <class name="com.vuclip.tests.Video_play_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.vuclip.tests.Video_play_Test@6536e911]" name="setup" is-config="true" duration-ms="37841" started-at="2018-10-16T20:21:51Z" finished-at="2018-10-16T20:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Home_page_validation()[pri:0, instance:com.vuclip.tests.Video_play_Test@6536e911]" name="Home_page_validation" duration-ms="12207" started-at="2018-10-16T20:22:29Z" finished-at="2018-10-16T20:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_page_validation -->
+        <test-method status="PASS" signature="Search_video()[pri:0, instance:com.vuclip.tests.Video_play_Test@6536e911]" name="Search_video" duration-ms="21005" started-at="2018-10-16T20:22:41Z" finished-at="2018-10-16T20:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_video -->
+        <test-method status="PASS" signature="play_pause_seek_video()[pri:0, instance:com.vuclip.tests.Video_play_Test@6536e911]" name="play_pause_seek_video" duration-ms="56646" started-at="2018-10-16T20:23:02Z" depends-on-methods="com.vuclip.tests.Video_play_Test.Search_video" finished-at="2018-10-16T20:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- play_pause_seek_video -->
+        <test-method status="PASS" signature="stop_appium_server()[pri:0, instance:com.vuclip.tests.Video_play_Test@6536e911]" name="stop_appium_server" is-config="true" duration-ms="78" started-at="2018-10-16T20:23:59Z" finished-at="2018-10-16T20:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop_appium_server -->
+      </class> <!-- com.vuclip.tests.Video_play_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
