@@ -1,6 +1,6 @@
 # Vuclip_App_Automation
 
-Maven project 
+Maven project with TestNG:
 
 Scenario:
 Launch Vuclip App and serach for a video
